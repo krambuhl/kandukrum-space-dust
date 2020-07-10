@@ -1,0 +1,22 @@
+{
+  "name": "kandukrum-space-dust",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "Eevee Kreevee <thekrambuhl@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "dev": "parcel source/index.html",
+    "build": "parcel build source/index.html"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "postcss-modules": "^3.2.0",
+    "autoprefixer": "^9.8.4"
+  }
+}

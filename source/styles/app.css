@@ -1,0 +1,42 @@
+.cover {
+  overflow: hidden;
+  position: relative;
+}
+
+.cover-fill {
+  content: '';
+  padding-top: 106.2%;
+  display: block;
+  width: 100%;
+}
+
+.cover-image {
+  position: absolute;
+  top: -10%;
+  left: -12%;
+  right: -12%;
+  width: 124%;
+  max-width: 200%;
+}
+
+@media (max-width: 768px) {
+  .cover-fill {
+    padding-top: 100%;
+  }
+
+  .cover-image {
+    top: -10.6%;
+  }
+}
+
+.text-light {
+  color: #999;
+}
+
+.text-dark {
+  color: #444;
+}
+
+.footer {
+  color: #444;
+}
